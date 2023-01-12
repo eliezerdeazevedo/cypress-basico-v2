@@ -264,7 +264,7 @@ it('faz uma requisição HTTP', function() {
 
     })
 })
-it.only('incontra o gato escondido', function() {
+it('incontra o gato escondido', function() {
     cy.get('#cat')
     .should('not.be.visible')
       .invoke('show')
